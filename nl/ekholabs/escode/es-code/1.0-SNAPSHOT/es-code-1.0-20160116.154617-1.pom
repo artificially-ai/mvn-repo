@@ -16,12 +16,17 @@
       <version>4.12</version>
       <scope>test</scope>
     </dependency>
+    <dependency>
+      <groupId>mcc.checkstyle</groupId>
+      <artifactId>checkstyle</artifactId>
+      <version>1.0-SNAPSHOT</version>
+    </dependency>
   </dependencies>
 
   <repositories>
     <repository>
-      <id>checkstyle</id>
-      <url>https://raw.github.com/ekholabs/mvn-repo/checkstyle</url>
+      <id>git-wilderrodrigues</id>
+      <url>https://github.com/ekholabs/mvn-repo/raw/checkstyle/</url>
       <snapshots>
         <enabled>true</enabled>
         <updatePolicy>always</updatePolicy>
@@ -109,7 +114,7 @@
       <plugin>
         <groupId>com.github.github</groupId>
         <artifactId>site-maven-plugin</artifactId>
-        <version>0.11</version>
+        <version>0.12</version>
         <configuration>
           <message>Maven artifacts for es-code ${project.version}</message>
           <noJekyll>true</noJekyll>
