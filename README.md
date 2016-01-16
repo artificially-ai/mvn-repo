@@ -1,2 +1,2 @@
 # mvn-repo
-Maven Repository uzed by Wercker CI/CD
+Maven Repository used by Wercker CI/CD
