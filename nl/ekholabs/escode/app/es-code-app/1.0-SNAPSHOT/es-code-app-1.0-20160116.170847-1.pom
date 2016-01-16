@@ -109,6 +109,17 @@
       <url>https://github.com/ekholabs/mvn-repo/raw/checkstyle/</url>
     </repository>
   </repositories>
+  <pluginRepositories>
+    <pluginRepository>
+      <releases>
+        <enabled>false</enabled>
+      </releases>
+      <snapshots />
+      <id>mvn-repo-snapshots</id>
+      <name>ekholabs mvn-repo</name>
+      <url>https://github.com/ekholabs/mvn-repo/raw/checkstyle/</url>
+    </pluginRepository>
+  </pluginRepositories>
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
