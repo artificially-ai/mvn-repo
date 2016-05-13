@@ -9,6 +9,7 @@
 
     <artifactId>rod-core</artifactId>
 
+
     <dependencies>
         <dependency>
             <groupId>org.springframework.amqp</groupId>
