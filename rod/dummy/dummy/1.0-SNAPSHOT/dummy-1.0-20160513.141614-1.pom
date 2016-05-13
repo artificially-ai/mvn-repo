@@ -24,7 +24,7 @@
             <scope>test</scope>
         </dependency>
         <dependency>
-            <groupId>rod-core</groupId>
+            <groupId>rod</groupId>
             <artifactId>rod-core</artifactId>
             <version>${core.version}</version>
         </dependency>        
